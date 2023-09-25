@@ -70,12 +70,12 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
+Hello `{}`, How Are You \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
 """
 
 
 PM_START_TEXT = """ 
-────「 [{}](https://telegra.ph/file/104bc33aa49969952c611.jpg) 」────
+────「 [{}]」─
 *Hola! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -95,21 +95,21 @@ buttons = [
      ],
     [
         InlineKeyboardButton(
-            text=f"Add Me To Your Group",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
-        )
+            text="Add Me To Your Group",
+            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true")
     ],
     [
         InlineKeyboardButton(text="[► Help ◄]", callback_data="Main_help"),
-        InlineKeyboardButton(text="[► Owner ◄]", url="https://telegram.dog/Devil_Boy_XD"),
+        InlineKeyboardButton(text="❔ Chit Chat",
+                             url="https://telegram.dog/Devil_Boy_XD"),
+        InlineKeyboardButton(text="[► Inline ◄]",
+                             switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="🔔 Updates", url="https://telegram.dog/Theblazenetwork"
-        ),
+        InlineKeyboardButton(text="🚑 Support",
+                             url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📢 Updates",
+                             url="https://telegram.dog/theblazenetwork")
     ],
 ]
 
