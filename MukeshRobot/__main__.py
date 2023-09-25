@@ -95,20 +95,20 @@ buttons = [
      ],
     [
         InlineKeyboardButton(
-            text="Add Me To Your Group",
+            text="➕ Add Me To Your Group ➕",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true")
     ],
     [
         InlineKeyboardButton(text="[► Help ◄]", callback_data="Main_help"),
         InlineKeyboardButton(text="❔ Chit Chat",
+                             url="t.me/LovePoisonXD"),
+        InlineKeyboardButton(text="[► Creator ◄]",
                              url="https://telegram.dog/Devil_Boy_XD"),
-        InlineKeyboardButton(text="[► Inline ◄]",
-                             switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(text="🚑 Support",
                              url=f"https://t.me/+_p0LhQFsDnY5NGY1"),
-        InlineKeyboardButton(text="📢 Updates",
+        InlineKeyboardButton(text="Updates 📢",
                              url="https://telegram.dog/theblazenetwork")
     ],
 ]
