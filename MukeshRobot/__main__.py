@@ -75,7 +75,7 @@ Hello `{}`, How Are You \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . .
 
 
 PM_START_TEXT = """ 
-────「 [{}]」─
+─「 [{}]」─
 *Hola! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -107,7 +107,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🚑 Support",
-                             url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/+_p0LhQFsDnY5NGY1"),
         InlineKeyboardButton(text="📢 Updates",
                              url="https://telegram.dog/theblazenetwork")
     ],
