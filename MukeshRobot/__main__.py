@@ -223,11 +223,11 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("❤")
+            lol.edit_text("❤️‍🔥")
             time.sleep(0.5)
-            lol.edit_text("⚡")
+            lol.edit_text("🇮🇳")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("Starting... ")
             time.sleep(0.4)
             lol.delete()
             
@@ -239,7 +239,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -395,18 +395,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
+                            text="• Sᴜᴩᴩᴏʀᴛ", callback_data="Theblazenetwork"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
+                            text="Cᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="👨‍💻Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="🥀sᴏᴜʀᴄᴇ",
+                            text="Sᴏᴜʀᴄᴇ",
                             callback_data="source_",
                         ),
                     ],
@@ -431,18 +431,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🏡 Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x6D\x75\x6B\x65\x73\x68\x62\x6F\x74\x7A\x6F\x6E\x65"
+                            text="Uᴩᴅᴀᴛᴇs 🍷", url=f"\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x6D\x75\x6B\x65\x73\x68\x62\x6F\x74\x7A\x6F\x6E\x65"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🥀 Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹", url="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x6E\x6F\x6F\x62\x2D\x6D\x75\x6B\x65\x73\x68"
+                            text="Gɪᴛʜᴜʙ 🍹", url="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x6E\x6F\x6F\x62\x2D\x6D\x75\x6B\x65\x73\x68"
                         ),
                     ],
                     [
@@ -621,7 +621,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x4E\x6F\x6F\x62\x2D\x4D\x75\x6B\x65\x73\x68\x2F\x4D\x75\x6B\x65\x73\x68\x52\x6F\x62\x6F\x74)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/official-afk-xD)
 
 
 {BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x4E\x6F\x6F\x62\x2D\x4D\x75\x6B\x65\x73\x68\x2F\x4D\x75\x6B\x65\x73\x68\x52\x6F\x62\x6F\x74/blob/main/LICENSE).
