@@ -99,10 +99,10 @@ buttons = [
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true")
     ],
     [
-        InlineKeyboardButton(text="[► Help ◄]", callback_data="Main_help"),
+        InlineKeyboardButton(text="[►Help◄]", callback_data="Main_help"),
         InlineKeyboardButton(text="ChitChat",
                              url="t.me/LovePoisonXD"),
-        InlineKeyboardButton(text="[► Creator ◄]",
+        InlineKeyboardButton(text="[►Creator◄]",
                              url="https://telegram.dog/Devil_Boy_XD"),
     ],
     [
