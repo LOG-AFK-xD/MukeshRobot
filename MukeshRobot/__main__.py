@@ -79,14 +79,10 @@ PM_START_TEXT = """
 *Hola! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-❍ `{}` *Users, Across* `{}` *Chats.*
+❍ *➻ Usᴇʀs »* {}
+❍  *➻ Cʜᴀᴛs »* {}
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Button Below To Know My Abilities ××
-─────────────────
-   *➻ Usᴇʀs »* {}
-   *➻ Cʜᴀᴛs »* {}
-─────────────────
 """
 
 buttons = [
